@@ -1,0 +1,39 @@
+.stikey_header {
+    width: 100%;
+    top: 0;
+    z-index: 9;
+    background-color: #000000b8;
+}
+
+.herobanner {
+    background-image: url('../public/images/IMG_0662.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 850px;
+    position: relative;
+}
+
+.herobanner .overlay {
+    /* background-color: #00000070; */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.herobanner .containe {
+    position: absolute;
+    bottom: 60px;
+    left: 60px;
+    padding: 15px 30px;
+    background-color: #000000b8;
+}
+
+.herobanner .banner_heading {
+    font-size: 40px;
+    color: #fff;
+    font-family: monospace;
+    letter-spacing: 5px;
+}
