@@ -4,8 +4,8 @@ const Herobanner = () => {
     return (
         <div className="herobanner">
             <div className="overlay"></div>
-            <div className="containe">
-                <h1 className="banner_heading">Vilen_7002</h1>
+            <div className="containe container">
+                <h1 className="banner_heading">Creative and Ideal People</h1>
             </div>
         </div>
     )

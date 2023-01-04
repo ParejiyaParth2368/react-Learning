@@ -5,17 +5,25 @@
     background-color: #000000b8;
 }
 
+.navbar-brand {
+    font-size: 38px !important;
+    font-family: fantasy;
+    font-weight: 500;
+    letter-spacing: 5px;
+    line-height: 42px;
+}
+
+.menu_bar {
+    flex-grow: 0 !important;
+}
+
 .herobanner {
-    background-image: url('../public/images/IMG_0662.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 850px;
+    height: 100vh;
+    background-color: black;
     position: relative;
 }
 
 .herobanner .overlay {
-    /* background-color: #00000070; */
     position: absolute;
     top: 0;
     bottom: 0;
@@ -25,15 +33,16 @@
 
 .herobanner .containe {
     position: absolute;
-    bottom: 60px;
-    left: 60px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     padding: 15px 30px;
     background-color: #000000b8;
 }
 
 .herobanner .banner_heading {
-    font-size: 40px;
+    font-size: 160px;
+    font-weight: 900;
     color: #fff;
-    font-family: monospace;
-    letter-spacing: 5px;
+    font-family: inherit;
 }
