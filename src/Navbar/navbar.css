@@ -1,0 +1,49 @@
+.stikey_header {
+    width: 100%;
+    top: 0;
+    z-index: 9;
+    background-color: #000000b8;
+}
+
+.navbar-brand {
+    font-size: 38px !important;
+    font-family: fantasy;
+    font-weight: 500;
+    letter-spacing: 5px;
+    line-height: 42px;
+}
+
+.menu_bar {
+    flex-grow: 0 !important;
+}
+
+.navbar-nav .nav-item {
+    margin: 0px 15px;
+}
+
+.navbar-nav .dropdown .dropdown-toggle:after {
+    display: none;
+}
+
+.dropdown .dropdown-toggle .down_arrow {
+    margin-left: 5px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    width: 600px;
+}
+
+.dropdown-menu .dropdown-menu-box {
+    max-width: 600px;
+    list-style-type: square;
+}
+
+.dropdown-menu .dropdown-menu-box li {
+    width: 50%;
+    margin: 20px 0px;
+
+}
