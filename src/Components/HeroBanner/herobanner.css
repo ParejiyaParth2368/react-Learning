@@ -1,15 +1,11 @@
 .herobanner {
     height: 100vh;
-    background-color: black;
     position: relative;
+    background-color: white;
 }
 
-.herobanner .overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+.dart-theme .herobanner {
+    background-color: black;
 }
 
 .herobanner .containe {
@@ -18,12 +14,16 @@
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 15px 30px;
-    background-color: #000000b8;
 }
+
 
 .herobanner .banner_heading {
     font-size: 160px;
     font-weight: 900;
-    color: #fff;
+    color: black;
     font-family: inherit;
+}
+
+.dart-theme .herobanner .banner_heading {
+    color: white;
 }
