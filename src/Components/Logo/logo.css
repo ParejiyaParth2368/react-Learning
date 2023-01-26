@@ -1,0 +1,7 @@
+.logo {
+    fill: var(--black_color);
+}
+
+.dart-theme .logo {
+    fill: var(--white_color);
+}

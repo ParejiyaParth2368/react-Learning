@@ -1,0 +1,204 @@
+.ourservices {
+    overflow: hidden;
+    padding: 100px 0px;
+}
+
+.ourservices_bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: var(--black_color);
+}
+
+.dart-theme .ourservices_bg {
+    background-color: var(--white_color);
+}
+
+.ourservices_header .title h2 {
+    color: var(--white_color);
+    font-size: 38px;
+    font-weight: 900;
+}
+
+
+.dart-theme .ourservices_header .title h2 {
+    color: var(--black_color);
+}
+
+
+.ourservices_header .subtitle {
+    color: var(--white_color);
+}
+
+.dart-theme .ourservices_header .subtitle {
+    color: var(--black_color);
+}
+
+.ourservices_content {
+    z-index: 2;
+}
+
+.item_list {
+    width: 60%;
+    background-color: var(--white_color);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    box-shadow: rgb(0 0 0 / 45%) 0px 25px 20px -20px;
+}
+
+.dart-theme .item_list {
+    background-color: var(--black_color);
+}
+
+.item_list_display {
+    width: 40%;
+}
+
+.item_list_display .react-tabs__tab-panel--selected {
+    height: 100%;
+}
+
+.item_list ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.item_list ul li {
+    width: 46%;
+    padding: 25px 0px;
+    margin: 0 13.5px;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.item_list ul li .item_icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 18px;
+}
+
+.item_list ul li:hover .item_icon {
+    transform: scale(1.1);
+}
+
+.item_list ul li .item_icon g {
+    fill: var(--black_color);
+}
+
+.dart-theme .item_list ul li .item_icon g {
+    fill: var(--white_color);
+}
+
+
+.item_list ul li .item_title {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    color: var(--black_color);
+    padding: 15px 0px;
+    position: relative;
+}
+
+.item_list ul li .item_title::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: var(--black_color);
+    transition: width .3s;
+    position: absolute;
+    bottom: 0;
+}
+
+.dart-theme .item_list ul li .item_title::after {
+    background: var(--white_color);
+}
+
+.dart-theme .item_list ul li .item_title {
+    color: var(--white_color);
+}
+
+.item_list ul li:hover .item_title::after {
+    width: 100%;
+}
+
+.item_list_display .item_list_display_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    min-height: 370px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.item_list_display .item_list_display_box .item_icon_display {
+    width: 150px;
+    height: 150px;
+}
+
+.item_list_display .item_list_display_box .item_icon_display g {
+    fill: var(--white_color);
+}
+
+.dart-theme .item_list_display .item_list_display_box .item_icon_display g {
+    fill: var(--black_color);
+}
+
+.item_list_display .item_list_display_box .item_title_display {
+    font-size: 1.625rem;
+    line-height: 2.75rem;
+    font-weight: 600;
+    color: var(--white_color);
+}
+
+.dart-theme .item_list_display .item_list_display_box .item_title_display {
+    color: var(--black_color);
+}
+
+.item_list_display .item_list_display_box .item_description_display {
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+    padding: 0.625rem 0rem;
+    color: var(--white_color);
+}
+
+.dart-theme .item_list_display .item_list_display_box .item_description_display {
+    color: var(--black_color);
+}
+
+.item_list .explore_all_btn {
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--black_color);
+}
+
+.dart-theme .item_list .explore_all_btn {
+    color: var(--white_color);
+}
+
+.item_list .fa_turnUp {
+    margin-left: 10px;
+    font-size: 22px;
+    color: var(--black_color);
+}
+
+.dart-theme .item_list .fa_turnUp {
+    color: var(--white_color);
+}

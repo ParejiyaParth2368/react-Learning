@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container-fluid {
+  max-width: 1650px;
+}
+
+
+:root {
+  --black_color: black;
+  --white_color: white;
+  /* #5ba8ff */
+}

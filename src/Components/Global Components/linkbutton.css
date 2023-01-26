@@ -1,0 +1,26 @@
+.global_btn {
+    padding: 10px 20px;
+    border: 2px solid var(--black_color);
+    border-radius: 5px;
+    background-color: var(--white_color);
+    color: var(--black_color);
+    text-decoration: none;
+}
+
+.global_btn:hover {
+    background-color: var(--black_color);
+    color: var(--white_color);
+    border: 2px solid var(--white_color);
+}
+
+.dart-theme .global_btn {
+    border: 2px solid var(--white_color);
+    background-color: var(--black_color);
+    color: var(--white_color);
+}
+
+.dart-theme .global_btn:hover {
+    background-color: var(--white_color);
+    color: var(--black_color);
+    border: 2px solid var(--black_color);
+}

@@ -1,8 +1,9 @@
 import React from 'react'
+import './logo.css'
 
 function Logo({ mode }) {
     return (
-        <svg version="1.0" xmlns="http://www.w3.org/2000/svg" fill={`${mode === 'dark' ? 'white' : 'black'}`} width="235"
+        <svg version="1.0" xmlns="http://www.w3.org/2000/svg" className="logo"
             viewBox="0 0 374.000000 95.000000"
             preserveAspectRatio="xMidYMid meet">
 
