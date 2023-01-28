@@ -12,11 +12,13 @@ const Whychooseus = ({ mode }) => {
         infinite: true,
         autoplay: true,
         autoplaySpeed: 1500,
+        // nextArrow: <SampleNextArrow />,
+        // prevArrow: <SamplePrevArrow />
     }
 
     return (
         <div className="why_choose_us_section">
-            <div className="container">
+            <div className="container-fluid">
                 <div className="why_choose_us_containe">
                     <div className="why_choose_us_section_header mx-3 mb-5">
                         <div className="title">

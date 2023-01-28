@@ -14,7 +14,7 @@ const Ourservices = () => {
     return (
         <div className="ourservices position-relative">
             <div className="ourservices_bg"></div>
-            <div className="container">
+            <div className="container-fluid">
                 <div className="ourservices_content position-relative">
                     <div className="ourservices_header mb-5">
                         <div className="title mb-3">

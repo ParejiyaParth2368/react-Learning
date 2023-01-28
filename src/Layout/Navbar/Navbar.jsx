@@ -19,7 +19,7 @@ const Navbar = ({ mode, toggledarklight }) => {
     return (
         <>
             <nav className={`navbar navbar-expand-lg py-4 justify-content-between`}>
-                <div className="container">
+                <div className="container-fluid">
                     <a className="navbar-brand" href="/">
                         <Logo mode={mode} />
                     </a>

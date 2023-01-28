@@ -6,7 +6,7 @@ import './footer.css'
 const Footer = ({ mode }) => {
     return (
         <div className={`Fotter_section bg-${mode === 'dark' ? 'black' : 'white'} text-white`}>
-            <div div className="container" >
+            <div div className="container-fluid" >
                 <footer className="py-5">
                     <div className="row align-items-start">
                         <div className="col-8 col-md-8 mb-3">

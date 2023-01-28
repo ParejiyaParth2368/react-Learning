@@ -44,20 +44,20 @@
 
 .item_list {
     width: 60%;
-    background-color: var(--white_color);
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     justify-content: space-around;
-    box-shadow: rgb(0 0 0 / 45%) 0px 25px 20px -20px;
-}
-
-.dart-theme .item_list {
-    background-color: var(--black_color);
 }
 
 .item_list_display {
     width: 40%;
+    border: 3px solid var(--white_color);
+    box-shadow: rgb(0 0 0 / 45%) 0px 25px 20px -20px;
+}
+
+.dart-theme .item_list_display {
+    border: 3px solid var(--black_color);
 }
 
 .item_list_display .react-tabs__tab-panel--selected {
@@ -75,14 +75,15 @@
 
 .item_list ul li {
     width: 46%;
-    padding: 25px 0px;
-    margin: 0 13.5px;
+    padding: 25px 15px;
+    margin: 25px 0px;
     text-align: left;
     cursor: pointer;
     outline: none;
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    box-shadow: rgb(0 0 0 / 45%) 0px 15px 20px -2px;
 }
 
 .item_list ul li .item_icon {
@@ -96,11 +97,11 @@
 }
 
 .item_list ul li .item_icon g {
-    fill: var(--black_color);
+    fill: var(--white_color);
 }
 
 .dart-theme .item_list ul li .item_icon g {
-    fill: var(--white_color);
+    fill: var(--black_color);
 }
 
 
@@ -108,7 +109,7 @@
     font-size: 18px;
     line-height: 22px;
     font-weight: 700;
-    color: var(--black_color);
+    color: var(--white_color);
     padding: 15px 0px;
     position: relative;
 }
@@ -118,18 +119,18 @@
     display: block;
     width: 0;
     height: 3px;
-    background: var(--black_color);
+    background: var(--white_color);
     transition: width .3s;
     position: absolute;
     bottom: 0;
 }
 
 .dart-theme .item_list ul li .item_title::after {
-    background: var(--white_color);
+    background: var(--black_color);
 }
 
 .dart-theme .item_list ul li .item_title {
-    color: var(--white_color);
+    color: var(--black_color);
 }
 
 .item_list ul li:hover .item_title::after {
@@ -139,7 +140,7 @@
 .item_list_display .item_list_display_box {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     height: 100%;
     min-height: 370px;
@@ -148,8 +149,8 @@
 }
 
 .item_list_display .item_list_display_box .item_icon_display {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
 }
 
 .item_list_display .item_list_display_box .item_icon_display g {
@@ -164,6 +165,7 @@
     font-size: 1.625rem;
     line-height: 2.75rem;
     font-weight: 600;
+    margin-top: 30px;
     color: var(--white_color);
 }
 
@@ -186,19 +188,19 @@
     text-decoration: none;
     font-size: 22px;
     font-weight: 700;
-    color: var(--black_color);
+    color: var(--white_color);
 }
 
 .dart-theme .item_list .explore_all_btn {
-    color: var(--white_color);
+    color: var(--black_color);
 }
 
 .item_list .fa_turnUp {
     margin-left: 10px;
     font-size: 22px;
-    color: var(--black_color);
+    color: var(--white_color);
 }
 
 .dart-theme .item_list .fa_turnUp {
-    color: var(--white_color);
+    color: var(--black_color);
 }

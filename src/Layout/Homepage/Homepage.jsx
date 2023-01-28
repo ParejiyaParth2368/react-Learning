@@ -8,6 +8,7 @@ const Homepage = ({ mode }) => {
         <Herobanner />
         <Whychooseus mode={mode} />
         <Ourservices mode={mode} />
+
     </>
     )
 }
