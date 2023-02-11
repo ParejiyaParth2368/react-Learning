@@ -107,6 +107,20 @@
     z-index: 1;
     width: 320px;
     overflow: auto;
+    background-color: var(--white_color);
+}
+
+.dart-theme .mobile_menu_list_box .mobile_menu_list {
+    background-color: var(--black_color);
+}
+
+
+.mobile_menu_list_box .mobile_menu_list .close_icon svg path {
+    fill: var(--black_color);
+}
+
+.dart-theme .mobile_menu_list_box .mobile_menu_list .close_icon svg path {
+    fill: var(--white_color);
 }
 
 .mobile_menu_list_box .mobile_menu_list .navbar-nav .dropdown .dropdown-toggle {
@@ -116,8 +130,6 @@
 }
 
 .mobile_menu_list_box .mobile_menu_list .accordion .accordion-item .accordion-header .accordion-button:not(.collapsed) {
-    color: var(--black_color);
-    background-color: unset;
     box-shadow: unset;
 }
 
@@ -131,10 +143,26 @@
     font-size: 1rem;
     line-height: 1.2;
     font-weight: 400;
+    color: var(--black_color);
+    background-color: var(--white_color);
+}
+
+.dart-theme .mobile_menu_list_box .mobile_menu_list .navbar-nav .nav-item .nav-link {
+    color: var(--white_color);
+    background-color: var(--black_color);
+}
+
+.mobile_menu_list_box .mobile_menu_list .navbar-nav .nav-item .nav-link:after {
+    background-image: var(--bs-accordion-btn-active-icon);
 }
 
 .mobile_menu_list_box .mobile_menu_list .accordion-body {
     list-style: none;
+    background-color: var(--white_color);
+}
+
+.dart-theme .mobile_menu_list_box .mobile_menu_list .accordion-body {
+    background-color: var(--black_color);
 }
 
 .navbar-brand svg {

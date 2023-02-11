@@ -24,6 +24,7 @@
     font-weight: 900;
     color: var(--black_color);
     font-family: inherit;
+    text-align: left;
 }
 
 .dart-theme .herobanner .banner_caption_logo .caption .banner_heading {
@@ -85,8 +86,13 @@
     }
 
     .herobanner .banner_caption_logo .Banner_logo_box {
+        display: none;
         margin: 20px auto 0px;
         width: 100%;
         max-width: 200px;
+    }
+
+    .herobanner .banner_caption_logo .caption .banner_heading {
+        text-align: center;
     }
 }

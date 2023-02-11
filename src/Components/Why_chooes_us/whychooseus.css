@@ -83,3 +83,9 @@
     color: var(--white_color) !important;
     opacity: 1;
 }
+
+@media only screen and (max-width: 600px) {
+    .why_choose_us_section_header .title h2 {
+        font-size: 27px;
+    }
+}

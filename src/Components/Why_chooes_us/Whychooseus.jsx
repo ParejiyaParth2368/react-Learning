@@ -12,8 +12,24 @@ const Whychooseus = ({ mode }) => {
         infinite: true,
         autoplay: true,
         autoplaySpeed: 1500,
-        // nextArrow: <SampleNextArrow />,
-        // prevArrow: <SamplePrevArrow />
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    initialSlide: 1
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    initialSlide: 1
+                }
+            }
+        ]
     }
 
     return (
@@ -29,36 +45,53 @@ const Whychooseus = ({ mode }) => {
                         <Slider {...sliderSettings}>
                             <div className="infocard">
                                 <div className="infoheader mb-3">
-                                    <h4 className="infotitle text-start">Client Satisfaction</h4>
+                                    <h4 className="infotitle text-start">Expertise and Experience</h4>
                                 </div>
                                 <div className="infobody">
-                                    <p className="infotext text-start">It's written on our chromosomes. Our clients have been the driving force behind the decades of success we've had. As a result, client satisfaction is at the core of our company concept. We don't mind collaborating to improve our ideas and provide top-notch mobile app development services.</p>
+                                    <p className="infotext text-start">Our team of professionals has a proven track record of delivering high-quality software solutions to clients in a variety of industries.</p>
                                 </div>
                             </div>
                             <div className="infocard">
                                 <div className="infoheader mb-3">
-                                    <h4 className="infotitle text-start">Client Satisfaction</h4>
+                                    <h4 className="infotitle text-start">Customer-Centered Approach</h4>
                                 </div>
                                 <div className="infobody">
-                                    <p className="infotext text-start">It's written on our chromosomes. Our clients have been the driving force behind the decades of success we've had. As a result, client satisfaction is at the core of our company concept. We don't mind collaborating to improve our ideas and provide top-notch mobile app development services.</p>
+                                    <p className="infotext text-start">We believe in putting the user experience first and always tailor our solutions to meet the unique needs of each client.</p>
                                 </div>
                             </div>
                             <div className="infocard">
                                 <div className="infoheader mb-3">
-                                    <h4 className="infotitle text-start">Client Satisfaction</h4>
+                                    <h4 className="infotitle text-start">Cutting-Edge Technologies</h4>
                                 </div>
                                 <div className="infobody">
-                                    <p className="infotext text-start">It's written on our chromosomes. Our clients have been the driving force behind the decades of success we've had. As a result, client satisfaction is at the core of our company concept. We don't mind collaborating to improve our ideas and provide top-notch mobile app development services.</p>
+                                    <p className="infotext text-start">We stay ahead of the curve by focusing on innovation and utilizing the latest technologies, such as cloud computing, artificial intelligence, and machine learning.</p>
                                 </div>
                             </div>
                             <div className="infocard">
                                 <div className="infoheader mb-3">
-                                    <h4 className="infotitle text-start">Client Satisfaction</h4>
+                                    <h4 className="infotitle text-start">Commitment to Quality</h4>
                                 </div>
                                 <div className="infobody">
-                                    <p className="infotext text-start">It's written on our chromosomes. Our clients have been the driving force behind the decades of success we've had. As a result, client satisfaction is at the core of our company concept. We don't mind collaborating to improve our ideas and provide top-notch mobile app development services.</p>
+                                    <p className="infotext text-start">We are dedicated to delivering software solutions that are functional, user-friendly, and meet the highest standards of quality.</p>
                                 </div>
                             </div>
+                            <div className="infocard">
+                                <div className="infoheader mb-3">
+                                    <h4 className="infotitle text-start">Exceptional Support</h4>
+                                </div>
+                                <div className="infobody">
+                                    <p className="infotext text-start">Our team is always here to provide ongoing support and ensure your success, long after the project is complete.</p>
+                                </div>
+                            </div>
+                            <div className="infocard">
+                                <div className="infoheader mb-3">
+                                    <h4 className="infotitle text-start">Competitive Pricing</h4>
+                                </div>
+                                <div className="infobody">
+                                    <p className="infotext text-start">We offer competitive pricing for our high-quality software development services, making it affordable for organizations of all sizes to achieve their digital transformation goals.</p>
+                                </div>
+                            </div>
+
                         </Slider>
                     </div>
                 </div >

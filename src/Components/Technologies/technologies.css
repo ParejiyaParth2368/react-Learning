@@ -1,0 +1,108 @@
+.technologies {
+    padding: 100px 0px;
+    background-color: var(--white_color);
+}
+
+.dart-theme .technologies {
+    background-color: var(--black_color);
+}
+
+.technologies_header .title h2 {
+    color: var(--black_color);
+    font-size: 38px;
+    font-weight: 900;
+}
+
+.dart-theme .technologies_header .title h2 {
+    color: var(--white_color);
+}
+
+
+.technologies_tabs_row {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+.technologies_tabs_row .technologies_tab {
+    padding: 30px 10px;
+    margin: 0px 16px;
+    color: var(--black_color);
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+}
+
+.dart-theme .technologies_tabs_row .technologies_tab {
+    color: var(--white_color);
+}
+
+.technologies_tabs_row .react-tabs__tab--selected {
+    border-bottom: 3px solid var(--black_color);
+}
+
+.dart-theme .technologies_tabs_row .react-tabs__tab--selected {
+    border-bottom: 3px solid var(--white_color);
+}
+
+.technologies_tabPanel_box {
+    padding: 50px 0px 0px 0px;
+    margin: 0px 0px 25px 0px;
+}
+
+.technologies_tabPanel_box .react-tabs__tab-panel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.technologies_icon_title_box {
+    margin: 10px 5px;
+    padding: 5px;
+}
+
+.technologies_icon_title_box a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.technologies_icon_title_box .technologies_icon {
+    width: 75px;
+    height: 75px;
+    margin: 0px 40px;
+}
+
+.technologies_icon_title_box .technologies_title {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 0px;
+    color: var(--black_color);
+}
+
+.dart-theme .technologies_icon_title_box .technologies_title {
+    color: var(--white_color);
+}
+
+
+@media only screen and (max-width: 1250px) {
+    .technologies_tabs_row {
+        overflow: auto;
+        justify-content: flex-start;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .technologies_icon_title_box .technologies_icon {
+        width: 55px;
+        height: 55px;
+        margin: 0px 25px;
+    }
+}
